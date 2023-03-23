@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.15d43636.css",
-    "main.js": "/static/js/main.9515a1cb.js",
+    "main.js": "/static/js/main.704c9d28.js",
     "static/js/27.e11e9da7.chunk.js": "/static/js/27.e11e9da7.chunk.js",
     "static/media/video.mp4": "/static/media/video.d225edd6d7d4d4a8f5b7.mp4",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -12,6 +12,7 @@
     "static/media/abdullah.jpg": "/static/media/abdullah.1e3eeb4b4aa7162af9bc.jpg",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "static/media/rtl.jpg": "/static/media/rtl.fc623d3befe9a7acb1ac.jpg",
+    "static/media/abdullahsmall.jpg": "/static/media/abdullahsmall.915e1cf61cf5d5bd235e.jpg",
     "static/media/dark.jpg": "/static/media/dark.c1cda9e0d5088e62fa77.jpg",
     "static/media/cv.webp": "/static/media/cv.174d8bc4469f8aa7c5fa.webp",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -24,6 +25,6 @@
   },
   "entrypoints": [
     "static/css/main.15d43636.css",
-    "static/js/main.9515a1cb.js"
+    "static/js/main.704c9d28.js"
   ]
 }
