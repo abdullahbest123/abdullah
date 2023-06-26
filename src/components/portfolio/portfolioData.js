@@ -1,155 +1,194 @@
-import Image1 from "../../assets/img/portfolio/project-1.jpg";
-import Image2 from "../../assets/img/portfolio/project-2.jpg";
-import Image3 from "../../assets/img/portfolio/project-3.jpg";
-import Image4 from "../../assets/img/portfolio/project-4.jpg";
-import Image5 from "../../assets/img/portfolio/project-5.jpg";
-import Image6 from "../../assets/img/portfolio/project-6.jpg";
-import Image7 from "../../assets/img/portfolio/project-7.jpg";
-import Image8 from "../../assets/img/portfolio/project-8.jpg";
-import Image9 from "../../assets/img/portfolio/project-9.jpg";
+import Image1 from "../../assets/img/portfolio/n1.png";
+import Image2 from "../../assets/img/portfolio/1.png";
+import Image3 from "../../assets/img/portfolio/2.png";
+import Image4 from "../../assets/img/portfolio/n2.png";
+import Image5 from "../../assets/img/portfolio/3.png";
+import Image6 from "../../assets/img/portfolio/4.png";
+import Image7 from "../../assets/img/portfolio/5.png";
+import Image8 from "../../assets/img/portfolio/6.png";
+import Image9 from "../../assets/img/portfolio/7.png";
+import Image10 from "../../assets/img/portfolio/8.png";
+import Image11 from "../../assets/img/portfolio/n3.png";
+import Image12 from "../../assets/img/portfolio/9.png";
 
 const PortfolioData = [
   {
     id: 1,
-    type: "mockup project",
+    type: "Express Project",
     image: Image1,
-    tag: ["mockup"],
+    tag: ["backend"],
     delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Envato",
-        language: "HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com/",
+        language: "React, Express, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://b3.webstacking.com",
       },
     ],
   },
   {
     id: 2,
-    type: "youtube project",
+    type: "React Project",
     image: Image2,
-    tag: ["video"],
-    delayAnimation: "100",
+    tag: ["frontend"],
+    delayAnimation: "0",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Website",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://14.webstacking.com",
       },
     ],
   },
   {
     id: 3,
-    type: "slider project",
+    type: "React Project",
     image: Image3,
-    tag: [],
-    delayAnimation: "200",
+    tag: ["frontend"],
+    delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Themeforest",
-        language: " HTML, CSS, Javascript",
-        preview: "www.envato.com",
-        link: "https://www.envato.com",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://13.webstacking.com",
       },
     ],
   },
   {
     id: 4,
-    type: "local project",
+    type: "Express Project",
     image: Image4,
-    tag: ["logo", "video"],
+    tag: ["backend"],
     delayAnimation: "0",
     modalDetails: [
       {
-        project: "video",
-        client: "Videohive",
-        language: " Adobe After Effects",
-        preview: "www.videohive.net",
-        link: "https://www.videohive.net",
+        project: "Website",
+        language: "React, Express, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://b2.webstacking.com",
       },
     ],
   },
   {
     id: 5,
-    type: "saas project",
+    type: "React Project",
     image: Image5,
-    tag: ["logo"],
-    delayAnimation: "100",
+    tag: ["frontend"],
+    delayAnimation: "0",
     modalDetails: [
       {
-        project: "Web Application",
-        client: "Themeforest",
-        language: "HTML, CSS, ReactJS",
-        preview: "www.envato.com",
-        link: "https://themeforest.net/item/deski-saas-software-react-template/33799794",
+        project: "Website",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://12.webstacking.com",
       },
     ],
   },
   {
     id: 6,
-    type: "mockup project",
+    type: "React Project",
     image: Image6,
-    tag: ["logo", "mockup"],
-    delayAnimation: "200",
+    tag: ["frontend"],
+    delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Themeforest",
-        language: "HTML, CSS, Javascript",
-        preview: "www.pexels.com",
-        link: "https://www.pexels.com",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://9.webstacking.com",
       },
     ],
   },
   {
     id: 7,
-    type: "facebook project",
+    type: "React Project",
     image: Image7,
-    tag: ["logo"],
+    tag: ["frontend"],
     delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Facebook",
-        language: "HTML, CSS, Javascript",
-        preview: "www.facebook.com",
-        link: "https://www.facebook.com/ibthemes",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://7.webstacking.com",
       },
     ],
   },
   {
     id: 8,
-    type: "dribble project",
+    type: "React Project",
     image: Image8,
-    tag: ["graphic design"],
-    delayAnimation: "100",
+    tag: ["frontend"],
+    delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Dribbble",
-        language: "HTML, CSS, Javascript",
-        preview: "www.dribbble.com",
-        link: "https://dribbble.com/ib-themes",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://6.webstacking.com",
       },
     ],
   },
   {
     id: 9,
-    type: "behence project",
+    type: "React Project",
     image: Image9,
-    tag: ["graphic design", "mockup"],
-    delayAnimation: "200",
+    tag: ["frontend"],
+    delayAnimation: "0",
     modalDetails: [
       {
         project: "Website",
-        client: "Behance",
-        language: "HTML, CSS, Javascript",
-        preview: "www.behance.com",
-        link: "https://www.behance.net/ib-themes",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://5.webstacking.com",
+      },
+    ],
+  },
+  {
+    id: 10,
+    type: "React Project",
+    image: Image10,
+    tag: ["frontend"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Website",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://3.webstacking.com",
+      },
+    ],
+  },
+  {
+    id: 11,
+    type: "Express Project",
+    image: Image11,
+    tag: ["backend"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Website",
+        language: "React, Express, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://b1.webstacking.com",
+      },
+    ],
+  },
+  {
+    id: 12,
+    type: "React Project",
+    image: Image12,
+    tag: ["frontend"],
+    delayAnimation: "0",
+    modalDetails: [
+      {
+        project: "Website",
+        language: "React, Javascript",
+        preview: "www.webstacking.com",
+        link: "https://2.webstacking.com",
       },
     ],
   },

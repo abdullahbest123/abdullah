@@ -10,9 +10,9 @@ import Social from "../../components/Social";
 import SwitchDark from "../../components/switch/SwitchDark";
 
 const menuItem = [
+  { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-home", menuName: "Home" },
   { icon: "fa-user", menuName: "About" },
-  // { icon: "fa-briefcase", menuName: "Portfolio" },
   { icon: "fa-envelope-open", menuName: "Contact" },
   // { icon: "fa-comments", menuName: "Blog" },
 ];
@@ -38,6 +38,23 @@ const HomeDark = () => {
         {/* End Menu Content */}
 
         <div className="tab-panel_list">
+            {/* Portfolio Content Starts */}
+          <TabPanel className="portfolio professional">
+            <div
+              className="title-section text-left text-sm-center"
+              data-aos="fade-up"
+              data-aos-duration="1200"
+            >
+              <h1>
+                my <span>portfolio</span>
+              </h1>
+              <span className="title-bg">works</span>
+            </div>
+            {/* End title */}
+           <Portfolio />
+          </TabPanel>
+          {/* Portfolio Content Ends */}
+
           {/* Hero Content Starts */}
           <TabPanel className="home ">
             <div
@@ -66,23 +83,7 @@ const HomeDark = () => {
           </TabPanel>
           {/* About Content Ends */}
 
-          {/* Portfolio Content Starts */}
-          {/* <TabPanel className="portfolio professional">
-            <div
-              className="title-section text-left text-sm-center"
-              data-aos="fade-up"
-              data-aos-duration="1200"
-            >
-              <h1>
-                my <span>portfolio</span>
-              </h1>
-              <span className="title-bg">works</span>
-            </div> */}
-            {/* End title */}
-          {/* <Portfolio />
-          </TabPanel> */}
-          {/* Portfolio Content Ends */}
-
+        
           {/* Contact Content Starts */}
           <TabPanel className="contact">
             <div
